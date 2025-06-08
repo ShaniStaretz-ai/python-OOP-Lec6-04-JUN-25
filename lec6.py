@@ -37,9 +37,6 @@ def add_recursion2(x, y) -> int:
     return 1 + add_recursion2(x, y - 1)
 
 
-result = 0
-
-
 def sum_digits(x):
     if x < 10:
         return x
